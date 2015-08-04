@@ -381,6 +381,7 @@
 						<h2 class="text-center font-alt font-yellow">Booking a table</h2>
 						<hr class="align-center"/>
 						<p class="text-center">Book <a href="#">online</a> or give us a call on <a href="#">+44 (0)20 7XXX XXXX</a> between 9.00am and 10.30pm</p>
+						<p class="text-center"><a href="#" class="btn btn-default btn-lg">Book a table</a></p>
 					</article>
 					<article class="col-sm-6 col-sm-offset-3 bg-dark">
 						<h2 class="text-center font-alt font-yellow">Finding Us</h2>
