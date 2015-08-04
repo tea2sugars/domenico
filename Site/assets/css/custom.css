@@ -26,3 +26,25 @@ Place here your custom CSS styles
 	background: url(../images/pager_filled.png) no-repeat;
 }
 
+.nav-pills > li > a {
+	 -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    font-size: 16px;
+    font-family: "AvenirNextLTW01-Regular", sans-serif;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	background: none;
+	color: #dda400;
+	font-family: "AvenirNextLTW01-Medium", sans-serif;
+}
+
+.nav-pills > li > a:hover {
+	background: none;
+	color: #dda400;
+}
+
+.tab-pane h4 {
+	margin-bottom:0;
+}

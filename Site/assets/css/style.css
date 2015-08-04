@@ -22,7 +22,7 @@ html {
 
 body {
 	background: #fff;
-	font: 400 12px/1.8 "AvenirNextLTW01-Regular", Verdana, sans-serif;
+	font: 16px/1.25 "AvenirNextLTW01-Regular", Verdana, sans-serif;
 	color: #757575;
 	-webkit-font-smoothing: antialiased;
 }
@@ -854,7 +854,7 @@ Footer
 ------------------------------------------------------------------- */
 
 .footer {
-	background: #f5f5f5;
+	background: black;
 	padding: 20px 0;
 }
 
@@ -1555,7 +1555,7 @@ Responsive Media Querries
 	
 }
 @media (min-width: 768px) {
-		#home {background: url(../images/Header_Image.jpg) no-repeat center center;
+		#home {background: url(../images/Header_Image.jpg) no-repeat center top;
 	}
 }
 

@@ -240,7 +240,7 @@
 						<div class="post-images-slider">
 							<ul class="slides">
 								<li class="bg-dark">
-									<article class="col-sm-6 col-sm-push-3">
+									<article class="col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
 										<h1 class="align-center font-alt font-yellow">Traditional made Italian</h1>
 										<hr class="align-center"/>
 										<p class="align-center">Cold-pressed Neutra vegan actually PBR&B meditation bicycle rights viral roof party. Wes Anderson four loko leggings occupy tousled, mustache skateboard cliche. Banksy High Life cred fingerstache art party. Letterpress cold-pressed pop-up, dreamcatcher craft beer locavore master cleanse wolf Wes Anderson viral hashtag semiotics. Letterpress meditation tote bag fanny pack four dollar toast, squid pop-up Carles Bushwick American Apparel hoodie dreamcatcher. Occupy Helvetica High Life Odd Future, meggings cronut fixie direct trade kale chips mlkshk chambray. Chambray McSweeney's tattooed, sustainable Thundercats mixtape migas asymmetrical.</p>
@@ -248,16 +248,16 @@
 								</li>
 								
 								<li class="bg-dark">
-									<article class="col-sm-6 col-sm-push-3">
-										<h1 class="align-center font-alt font-yellow">Traditional made Italian</h1>
+									<article class="col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
+										<h2 class="align-center font-alt font-yellow">Traditional made Italian</h2>
 										<hr class="align-center"/>
 										<p class="align-center">Cold-pressed Neutra vegan actually PBR&B meditation bicycle rights viral roof party. Wes Anderson four loko leggings occupy tousled, mustache skateboard cliche. Banksy High Life cred fingerstache art party. Letterpress cold-pressed pop-up, dreamcatcher craft beer locavore master cleanse wolf Wes Anderson viral hashtag semiotics. Letterpress meditation tote bag fanny pack four dollar toast, squid pop-up Carles Bushwick American Apparel hoodie dreamcatcher. Occupy Helvetica High Life Odd Future, meggings cronut fixie direct trade kale chips mlkshk chambray. Chambray McSweeney's tattooed, sustainable Thundercats mixtape migas asymmetrical.</p>
 									</article>
 								</li>
 								
 								<li class="bg-dark">
-									<article class="col-sm-6 col-sm-push-3">
-										<h1 class="align-center font-alt font-yellow">Traditional made Italian</h1>
+									<article class="col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
+										<h2 class="align-center font-alt font-yellow">Traditional made Italian</h2>
 										<hr class="align-center"/>
 										<p class="align-center">Cold-pressed Neutra vegan actually PBR&B meditation bicycle rights viral roof party. Wes Anderson four loko leggings occupy tousled, mustache skateboard cliche. Banksy High Life cred fingerstache art party. Letterpress cold-pressed pop-up, dreamcatcher craft beer locavore master cleanse wolf Wes Anderson viral hashtag semiotics. Letterpress meditation tote bag fanny pack four dollar toast, squid pop-up Carles Bushwick American Apparel hoodie dreamcatcher. Occupy Helvetica High Life Odd Future, meggings cronut fixie direct trade kale chips mlkshk chambray. Chambray McSweeney's tattooed, sustainable Thundercats mixtape migas asymmetrical.</p>
 									</article>
@@ -273,119 +273,266 @@
 
 	</section>
 
-		<!-- TESTIMONIAL -->
-		<section class="module-small">
-
-			<div class="container">
+	<section id="menu" class="module">
+		<div class="container">
 
 				<div class="row">
+					<h2 class="align-center font-alt font-yellow">The Menu</h2>
+					<hr class="align-center"/>
+					<article>
+						<div role="tabpanel">
 
-					<!-- MODULE TITLE -->
-					<div class="col-sm-6">
-						<h2 class="module-title font-alt">Someone quote</h2>
-					</div>
-					<!-- /MODULE TITLE -->
+							<!-- Nav tabs start-->
+							<ul class="nav nav-pills nav-justified text-uppercase" role="tablist">
+								<li class="active">
+									<a href="#starters" data-toggle="tab">starters</a>
+								</li>
+								<li>
+									<a href="#pizzas" data-toggle="tab">pizzas</a>
+								</li>
+								<li>
+									<a href="#calzone" data-toggle="tab">calzone</a>
+								</li>
+								<li>
+									<a href="#pasta" data-toggle="tab">pasta</a>
+								</li>
+								<li>
+									<a href="#alforno" data-toggle="tab">al forno</a>
+								</li>
+								<li>
+									<a href="#desserts" data-toggle="tab">desserts</a>
+								</li>
+							</ul>
+							<!-- Nav tabs end -->
 
-					<!-- BLOCKQUOTE -->
-					<div class="col-sm-6">
-						<blockquote class="font-serif align-right">
-							<p>The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.</p>
-							<p class="font-inc font-uppercase">- Thomas Anderson</p>
-						</blockquote>
-					</div>
-					<!-- /BLOCKQUOTE -->
+							<!-- Tab panes start-->
+							<div class="tab-content">
 
-				</div>
+								<!-- Tab start -->
+								<div class="tab-pane active" id="starters">
+									<article class="col-sm-6 col-sm-offset-3">
+										<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue commodoorci ut finibus. Nam id nibh non augue iaculis congue at at orci. Proin blandit idlorem vitae auctor. Ut viverra viverra lacus, at convallis turpis euismod ut.</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+								</div>
+								<!-- Tab end -->
 
-			</div>
+								<!-- Tab start -->
+								<div class="tab-pane" id="pizzas">
+									<article class="col-sm-6 col-sm-offset-3">
+										<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue commodoorci ut finibus. Nam id nibh non augue iaculis congue at at orci. Proin blandit idlorem vitae auctor. Ut viverra viverra lacus, at convallis turpis euismod ut.</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+								</div>
+								<!-- Tab end -->
+								<!-- Tab start -->
+								<div class="tab-pane" id="calzone">
+									<article class="col-sm-6 col-sm-offset-3">
+										<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue commodoorci ut finibus. Nam id nibh non augue iaculis congue at at orci. Proin blandit idlorem vitae auctor. Ut viverra viverra lacus, at convallis turpis euismod ut.</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+								</div>
+								<!-- Tab end -->
 
-		</section>
-		<!-- /TESTIMONIAL -->
+								<!-- Tab start -->
+								<div class="tab-pane" id="pasta">
+									<article class="col-sm-6 col-sm-offset-3">
+										<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue commodoorci ut finibus. Nam id nibh non augue iaculis congue at at orci. Proin blandit idlorem vitae auctor. Ut viverra viverra lacus, at convallis turpis euismod ut.</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+								</div>
+								<!-- Tab end -->
+								<!-- Tab start -->
+								<div class="tab-pane" id="alforno">
+									<article class="col-sm-6 col-sm-offset-3">
+										<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue commodoorci ut finibus. Nam id nibh non augue iaculis congue at at orci. Proin blandit idlorem vitae auctor. Ut viverra viverra lacus, at convallis turpis euismod ut.</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+								</div>
+								<!-- Tab end -->
 
-		<!-- ABOUT -->
-		<section class="module p-t-0 p-b-0" data-background="assets/images/section-4.jpg">
+								<!-- Tab start -->
+								<div class="tab-pane" id="desserts">
+									<article class="col-sm-6 col-sm-offset-3">
+										<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue commodoorci ut finibus. Nam id nibh non augue iaculis congue at at orci. Proin blandit idlorem vitae auctor. Ut viverra viverra lacus, at convallis turpis euismod ut.</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
+										<h4>Title</h4>
+										<p class="m-b-10">Description</p>
+										<p class="lead font-alt">£10.00</p>
+									</article>
+								</div>
+								<!-- Tab end -->
 
-			<div class="container-fluid">
-
-				<div class="row relative">
-
-					<div class="col-sm-12 col-md-6 col-md-offset-6 col-bg">
-
-						<h2 class="module-title font-alt">About</h2>
-
-						<div class="module-subtitle font-inc">
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+							</div>
+							<!-- Tab panes end-->
 						</div>
-
-						<p>The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.</p>
-
-						<p>To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words. If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.</p>
-
-						<ul class="social-list">
-							<li><a href="#"><span class="icon-facebook"></span></a></li>
-							<li><a href="#"><span class="icon-twitter"></span></a></li>
-							<li><a href="#"><span class="icon-googleplus"></span></a></li>
-						</ul>
-
-					</div>
-
+					</article>
 				</div>
-
-			</div>
-
-		</section>
-		<!-- /ABOUT -->
+	</section>
 
 		<!-- CONTACT -->
-		<section class="module-small">
-		
+		<section id="about" class="module" data-background="assets/images/details_image.jpg">
 			<div class="container">
-		
 				<div class="row">
-		
-					<!-- CONTENT BOX -->
-					<div class="col-sm-4">
-						<div class="content-box">
-							<div class="content-box-icon">
-								<span class="icon-map-pin"></span>
-							</div>
-							<div class="content-box-title font-inc">
-								007 Steet, City, USA
-							</div>
-						</div>
-					</div>
-					<!-- /CONTENT BOX -->
-		
-					<!-- CONTENT BOX -->
-					<div class="col-sm-4">
-						<div class="content-box">
-							<div class="content-box-icon">
-								<span class="icon-phone"></span>
-							</div>
-							<div class="content-box-title font-inc">
-								+1 234 567 89 00
-							</div>
-						</div>
-					</div>
-					<!-- /CONTENT BOX -->
-		
-					<!-- CONTENT BOX -->
-					<div class="col-sm-4">
-						<div class="content-box">
-							<div class="content-box-icon">
-								<span class="icon-envelope"></span>
-							</div>
-							<div class="content-box-title font-inc">
-								semantic@email.com
-							</div>
-						</div>
-					</div>
-					<!-- /CONTENT BOX -->
-		
-				</div>
-		
-			</div>
-		
+					<article class="col-sm-6 col-sm-offset-3 bg-dark">
+						<h2 class="text-center font-alt font-yellow">Opening Hours</h2>
+						<hr class="align-center"/>
+						<p class="text-center"><span class="font-alt font-yellow">Monday-Friday:</span> 12.00 - 23.30</p>
+						<p class="text-center"><span class="font-alt font-yellow">Saturday:</span> 16.30 - 23.30</p>
+						<p class="text-center"><span class="font-alt font-yellow">Sunday & Bank holiday:</span> 16.30 - 22.00</p>
+					</article>
+					<article class="col-sm-6 col-sm-offset-3 bg-dark">
+						<h2 class="text-center font-alt font-yellow">Booking a table</h2>
+						<hr class="align-center"/>
+						<p class="text-center">Book <a href="#">online</a> or give us a call on <a href="#">+44 (0)20 7XXX XXXX</a> between 9.00am and 10.30pm</p>
+					</article>
+					<article class="col-sm-6 col-sm-offset-3 bg-dark">
+						<h2 class="text-center font-alt font-yellow">Finding Us</h2>
+						<hr class="align-center"/>
+						<p class="text-center"><address>Domenico Restaurant, XX-XX XXXXX XXXXX,Mill Hill, London, XXXX XXX</address></p>
+						<p class="text-center font-alt"><a href="#" target="_blank">Click here for directions</a></p>
+					</article>
 		</section>
 		<!-- /CONTACT -->
 
@@ -397,7 +544,16 @@
 				<div class="row">
 		
 					<div class="col-sm-12 text-center">
-						<p class="copyright font-inc m-b-0">© 2015 <a href="index.html">SEMANTIC</a>, All Rights Reserved.</p>
+						<img src="assets/images/Secondary_logo.png" alt="Secondary_logo" width="343" height="52" class="align-center">
+						<ul id="footer-nav">
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+						</ul>
+						<p class="small text-center">© 2015. All Rights Reserved Domenico</p>
 					</div>
 		
 				</div>
