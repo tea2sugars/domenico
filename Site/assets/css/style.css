@@ -390,7 +390,11 @@ Overlays
 }
 
 .bg-dark {
-	background: #111;
+}
+
+.bg-dark h1, 
+.bg-dark h2 {
+	text-transform: uppercase;
 }
 
 .bg-dark-30:before {
@@ -520,6 +524,10 @@ blockquote {
 	font-family: Georgia, sans-serif;
 }
 
+.font-yellow {
+	color:#dda400;
+}
+
 .font-uppercase {
 	text-transform: uppercase;
 	font-style: normal;
@@ -532,6 +540,11 @@ blockquote {
 .rotate {
 	text-shadow: none !important;
 }
+
+hr {
+    border-top: 1px solid #eee;
+    width: 50%;
+    }
 
 /* ------------------------------------------------------------------
 Navbar
@@ -1151,6 +1164,7 @@ Post
 
 .post-images-slider {
 	position: relative;
+	height:500px;
 }
 
 .post-quote {

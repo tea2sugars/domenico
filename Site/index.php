@@ -231,152 +231,47 @@
 	</section >
 	<!-- /HOME -->
 
-	<!-- WRAPPER -->
-	<div class="wrapper">
+	<section id="about" class="module" data-background="assets/images/About_Image.jpg">
 
-		<!-- PORTFOLIO -->
-		<section class="module-small p-t-20 p-b-0 p-t-sm-0">
+			<div class="container-fluid">
 
-			<div class="container">
-
-				<!-- PORTFOLIO FILTER -->
 				<div class="row">
-					<div class="col-sm-12">
 
-						<ul id="filters" class="filter font-inc">
-							<li><a href="#" data-filter="*" class="current wow fadeInUp">All</a></li>
-							<li><a href="#" data-filter=".illustration" class="wow fadeInUp" data-wow-delay="0.2s">Illustration</a></li>
-							<li><a href="#" data-filter=".marketing" class="wow fadeInUp" data-wow-delay="0.4s">Marketing</a></li>
-							<li><a href="#" data-filter=".photography" class="wow fadeInUp" data-wow-delay="0.6s">Photography</a></li>
-							<li><a href="#" data-filter=".webdesign" class="wow fadeInUp" data-wow-delay="0.8s">Web Design</a></li>
-						</ul>
+						<div class="post-images-slider">
+							<ul class="slides">
+								<li class="bg-dark">
+									<article class="col-sm-6 col-sm-push-3">
+										<h1 class="align-center font-alt font-yellow">Traditional made Italian</h1>
+										<hr class="align-center"/>
+										<p class="align-center">Cold-pressed Neutra vegan actually PBR&B meditation bicycle rights viral roof party. Wes Anderson four loko leggings occupy tousled, mustache skateboard cliche. Banksy High Life cred fingerstache art party. Letterpress cold-pressed pop-up, dreamcatcher craft beer locavore master cleanse wolf Wes Anderson viral hashtag semiotics. Letterpress meditation tote bag fanny pack four dollar toast, squid pop-up Carles Bushwick American Apparel hoodie dreamcatcher. Occupy Helvetica High Life Odd Future, meggings cronut fixie direct trade kale chips mlkshk chambray. Chambray McSweeney's tattooed, sustainable Thundercats mixtape migas asymmetrical.</p>
+									</article>
+								</li>
+								
+								<li class="bg-dark">
+									<article class="col-sm-6 col-sm-push-3">
+										<h1 class="align-center font-alt font-yellow">Traditional made Italian</h1>
+										<hr class="align-center"/>
+										<p class="align-center">Cold-pressed Neutra vegan actually PBR&B meditation bicycle rights viral roof party. Wes Anderson four loko leggings occupy tousled, mustache skateboard cliche. Banksy High Life cred fingerstache art party. Letterpress cold-pressed pop-up, dreamcatcher craft beer locavore master cleanse wolf Wes Anderson viral hashtag semiotics. Letterpress meditation tote bag fanny pack four dollar toast, squid pop-up Carles Bushwick American Apparel hoodie dreamcatcher. Occupy Helvetica High Life Odd Future, meggings cronut fixie direct trade kale chips mlkshk chambray. Chambray McSweeney's tattooed, sustainable Thundercats mixtape migas asymmetrical.</p>
+									</article>
+								</li>
+								
+								<li class="bg-dark">
+									<article class="col-sm-6 col-sm-push-3">
+										<h1 class="align-center font-alt font-yellow">Traditional made Italian</h1>
+										<hr class="align-center"/>
+										<p class="align-center">Cold-pressed Neutra vegan actually PBR&B meditation bicycle rights viral roof party. Wes Anderson four loko leggings occupy tousled, mustache skateboard cliche. Banksy High Life cred fingerstache art party. Letterpress cold-pressed pop-up, dreamcatcher craft beer locavore master cleanse wolf Wes Anderson viral hashtag semiotics. Letterpress meditation tote bag fanny pack four dollar toast, squid pop-up Carles Bushwick American Apparel hoodie dreamcatcher. Occupy Helvetica High Life Odd Future, meggings cronut fixie direct trade kale chips mlkshk chambray. Chambray McSweeney's tattooed, sustainable Thundercats mixtape migas asymmetrical.</p>
+									</article>
+								</li>
+								
+							</ul>
+						</div>
 
-					</div>
-				</div>
-				<!-- /PORTFOLIO FILTER -->
+
+				</div><!-- .row -->
 
 			</div>
 
-			<!-- PORTFOLIO LIST -->
-			<ul id="works-grid" class="works-grid works-grid-masonry works-grid-3 works-hover-w">
-
-				<!-- PORTFOLIO ITEM -->
-				<li class="work-item illustration webdesign">
-					<a href="portfolio-single-1.html">
-						<div class="work-image">
-							<img src="assets/images/work-masonry-1.jpg" alt="">
-						</div>
-						<div class="work-caption">
-							<h3 class="work-title font-alt">Corporate Identity</h3>
-							<div class="work-descr font-inc">
-								Illustration
-							</div>
-						</div>
-					</a>
-				</li>
-				<!-- /PORTFOLIO ITEM -->
-
-				<!-- PORTFOLIO ITEM -->
-				<li class="work-item marketing photography">
-					<a href="portfolio-single-1.html">
-						<div class="work-image">
-							<img src="assets/images/work-2.jpg" alt="">
-						</div>
-						<div class="work-caption">
-							<h3 class="work-title font-alt">Bag MockUp</h3>
-							<div class="work-descr font-inc">
-								Marketing
-							</div>
-						</div>
-					</a>
-				</li>
-				<!-- /PORTFOLIO ITEM -->
-
-				<!-- PORTFOLIO ITEM -->
-				<li class="work-item illustration photography">
-					<a href="portfolio-single-1.html">
-						<div class="work-image">
-							<img src="assets/images/work-3.jpg" alt="">
-						</div>
-						<div class="work-caption">
-							<h3 class="work-title font-alt">Disk Cover</h3>
-							<div class="work-descr font-inc">
-								Illustration
-							</div>
-						</div>
-					</a>
-				</li>
-				<!-- /PORTFOLIO ITEM -->
-
-				<!-- PORTFOLIO ITEM -->
-				<li class="work-item marketing photography">
-					<a href="portfolio-single-1.html">
-						<div class="work-image">
-							<img src="assets/images/work-4.jpg" alt="">
-						</div>
-						<div class="work-caption">
-							<h3 class="work-title font-alt">Business Card</h3>
-							<div class="work-descr font-inc">
-								Photography
-							</div>
-						</div>
-					</a>
-				</li>
-				<!-- /PORTFOLIO ITEM -->
-
-				<!-- PORTFOLIO ITEM -->
-				<li class="work-item illustration webdesign">
-					<a href="portfolio-single-1.html">
-						<div class="work-image">
-							<img src="assets/images/work-masonry-2.jpg" alt="">
-						</div>
-						<div class="work-caption">
-							<h3 class="work-title font-alt">Business Cards</h3>
-							<div class="work-descr font-inc">
-								Webdesign
-							</div>
-						</div>
-					</a>
-				</li>
-				<!-- /PORTFOLIO ITEM -->
-
-				<!-- PORTFOLIO ITEM -->
-				<li class="work-item marketing webdesign">
-					<a href="portfolio-single-1.html">
-						<div class="work-image">
-							<img src="assets/images/work-6.jpg" alt="">
-						</div>
-						<div class="work-caption">
-							<h3 class="work-title font-alt">Business Cards in paper clip</h3>
-							<div class="work-descr font-inc">
-								Marketing
-							</div>
-						</div>
-					</a>
-				</li>
-				<!-- /PORTFOLIO ITEM -->
-
-				<!-- PORTFOLIO ITEM -->
-				<li class="work-item marketing webdesign">
-					<a href="portfolio-single-1.html">
-						<div class="work-image">
-							<img src="assets/images/work-7.jpg" alt="">
-						</div>
-						<div class="work-caption">
-							<h3 class="work-title font-alt">Business Cards in paper clip</h3>
-							<div class="work-descr font-inc">
-								Marketing
-							</div>
-						</div>
-					</a>
-				</li>
-				<!-- /PORTFOLIO ITEM -->
-
-			</ul>
-			<!-- /PORTFOLIO LIST -->
-
-		</section>
-		<!-- /PORTFOLIO -->
+	</section>
 
 		<!-- TESTIMONIAL -->
 		<section class="module-small">
