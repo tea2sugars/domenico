@@ -1550,6 +1550,14 @@ Responsive Media Querries
 
 }
 
+#home {
+	background: url(../images/header-image-mobile.jpg) no-repeat center center;
+	
+}
+@media (min-width: 768px) {
+		#home {background: url(../images/Header_Image.jpg) no-repeat center center;
+	}
+}
 
 /* -------------------------------------------------------------------
 Multi-columns-row

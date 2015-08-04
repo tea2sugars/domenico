@@ -213,7 +213,7 @@
 	<!-- /NAVIGATION -->
 
 	<!-- HOME -->
-	<section id="home" class="module-hero module-parallax module-fade module-full-height" data-background="assets/images/Header_Image.jpg">
+	<section id="home" class="module-hero module-parallax module-fade module-full-height">
 
 		<!--<div class="hs-caption container">
 			<div class="caption-content">
