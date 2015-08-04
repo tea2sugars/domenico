@@ -855,11 +855,27 @@ Footer
 
 .footer {
 	background: black;
-	padding: 20px 0;
+	padding: 40px 0;
+}
+
+.footer ul {
+	margin-top: 40px;
+}
+
+.footer li {
+	display: inline-block;
+	width:12%;
+}
+
+.footer li a {
+	color:white;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .copyright {
-	font-size: 14px;
+	font-size: 13px;
+	margin-top: 40px;
 }
 
 /* ------------------------------------------------------------------
