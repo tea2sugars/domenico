@@ -23,7 +23,7 @@ html {
 body {
 	background: #fff;
 	font: 400 12px/1.8 "Open Sans", Verdana, sans-serif;
-	color: #666;
+	color: #757575;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -546,8 +546,11 @@ Navbar
 	font-family: "Inconsolata", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 0.15em;
-	font-size: 13px;
+	font-size: 18px;
+	padding-bottom:4px;
+	padding-top:20px;
 	z-index: 1000;
+	
 }
 
 .navbar-custom .dropdown-menu {
@@ -572,11 +575,12 @@ Navbar
 	font-weight: 400;
 	font-size: 20px;
 	color: #000;
+	padding:0 !important;
 }
 
 .navbar-custom .nav li > a {
 	position: relative;
-	color: #000;
+	color: #757575;
 }
 
 .navbar-custom .nav > li > a:focus,

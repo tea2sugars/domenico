@@ -34,7 +34,7 @@
 	<!-- /PRELOADER -->
 
 	<!-- NAVIGATION -->
-	<nav class="navbar navbar-custom navbar-transparent navbar-fixed-top" role="navigation">
+	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
 
 			<div class="container">
 		
@@ -211,15 +211,15 @@
 	<!-- /NAVIGATION -->
 
 	<!-- HOME -->
-	<section id="home" class="module-hero module-parallax module-fade module-full-height bg-dark-30" data-background="assets/images/section-1.jpg">
+	<section id="home" class="module-hero module-parallax module-fade module-full-height" data-background="assets/images/Header_Image.jpg">
 
 		<div class="hs-caption container">
 			<div class="caption-content">
 				<div class="hs-title-size-4 font-alt m-b-30">
-					We are Semantic
+					<img src="assets/images/Master_logo_Large.png" alt="Master_logo_Large" width="788" height="120">
 				</div>
 				<div class="hs-title-size-1 font-inc">
-					A wonderful serenity has taken possession of my entire soul, like these<br/> sweet mornings of spring which I enjoy with my whole heart
+					A taste of Naples
 				</div>
 			</div>
 		</div>
