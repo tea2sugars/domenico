@@ -480,16 +480,16 @@ a {
 
 a:hover, a:focus {
 	text-decoration: none;
-	color: #999;
+	color: #dda400;
 	outline: 0;
 }
 
 .bg-dark a {
-	color: #CDCDCD;
+	color: #dda400;
 }
 
 .bg-dark a:hover, .bg-dark a:focus {
-	color: #000;
+	text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
