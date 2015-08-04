@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	
-	<title>Semantic - Minimal portfolio template</title>
+	<title>Domenico Pizza & Pasta | The Taste of Naples | London</title>
 	
 	<!-- Bootstrap core CSS -->
 	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +29,7 @@
 
 	<!-- PRELOADER -->
 	<div class="page-loader">
-		<div class="loader">Loading...</div>
+		<div class="loader">Baking...</div>
 	</div>
 	<!-- /PRELOADER -->
 
@@ -45,7 +45,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html">Semantic</a>
+					<a class="navbar-brand" href="index.php"><img src="assets/images/Master_logo.png" alt="Domenico Pizza - A taste of Napels"></a>
 				</div>
 		
 				<div class="collapse navbar-collapse" id="custom-collapse">
