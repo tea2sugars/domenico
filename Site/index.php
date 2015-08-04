@@ -215,16 +215,18 @@
 	<!-- HOME -->
 	<section id="home" class="module-hero module-parallax module-fade module-full-height" data-background="assets/images/Header_Image.jpg">
 
-		<div class="hs-caption container">
+		<!--<div class="hs-caption container">
 			<div class="caption-content">
+				
 				<div class="hs-title-size-4 font-alt m-b-30">
 					<img src="assets/images/Master_logo_Large.png" alt="Master_logo_Large" width="788" height="120">
 				</div>
 				<div class="hs-title-size-1 font-inc">
 					A taste of Naples
 				</div>
+				
 			</div>
-		</div>
+		</div>-->
 
 	</section >
 	<!-- /HOME -->
