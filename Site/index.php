@@ -7,6 +7,8 @@
 	<meta name="author" content="">
 	
 	<title>Domenico Pizza & Pasta | The Taste of Naples | London</title>
+	<!-- Custom CSS -->
+	<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/2eadd16e-f3c3-4374-a571-f41f96163302.css"/>
 	
 	<!-- Bootstrap core CSS -->
 	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
