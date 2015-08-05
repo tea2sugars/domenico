@@ -86,7 +86,9 @@
 	</section >
 	<!-- /HOME -->
 	<div id="book-button" style="position:fixed; top:90px; left:10%; z-index: 1000;">
-				<a href="#" class="btn btn-default">Book a table</a>
+				<button data-toggle="modal" data-target="#myModal" class="btn btn-default">
+					Book a table
+				</button>
 			</div>
 			<div id="delivery-button" style="position:fixed; top:90px; right:10%; z-index: 1000;">
 				<a href="#" class="btn btn-default">Delivery</a>
@@ -385,13 +387,18 @@
 					<article class="col-sm-6 col-sm-offset-3 bg-dark">
 						<h2 class="text-center font-alt font-yellow">Booking a table</h2>
 						<hr class="align-center"/>
-						<p class="text-center">Book <a href="#">online</a> or give us a call on <a href="#">+44 (0)20 7XXX XXXX</a> between 9.00am and 10.30pm</p>
-						<p class="text-center"><a href="#" class="btn btn-default btn-lg">Book a table</a></p>
+						<p class="text-center">Book <a href="#">online</a> or give us a call on <a href="#">+44 (0)20 7XXX XXXX</a><br/>between 9.00am and 10.30pm</p>
+						<div class="align-center">
+							<button data-toggle="modal" data-target="#myModal" class="btn btn-default btn-lg">
+								Book a table
+							</button>
+						</div>
+
 					</article>
 					<article class="col-sm-6 col-sm-offset-3 bg-dark">
 						<h2 class="text-center font-alt font-yellow">Finding Us</h2>
 						<hr class="align-center"/>
-						<p class="text-center"><address>Domenico Restaurant, XX-XX XXXXX XXXXX,Mill Hill, London, XXXX XXX</address></p>
+						<p class="text-center"><address>Domenico Restaurant, XX-XX XXXXX XXXXX, Mill Hill, London, XXXX XXX</address></p>
 						<p class="text-center font-alt"><a href="#" target="_blank">Click here for directions</a></p>
 					</article>
 		</section>
@@ -424,7 +431,20 @@
 		
 		</footer>
 		<!-- /FOOTER -->
-
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Book a table</h4>
+		      </div>
+		      
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>	
 	</div>
 	<!-- /WRAPPER -->
 
@@ -432,6 +452,8 @@
 	<div class="scroll-up">
 		<a href="#totop"><i class="fa fa-angle-double-up"></i></a>
 	</div>
+	
+	
 	
 	<!-- Javascript files -->
 	<script src="assets/js/jquery-2.1.3.min.js"></script>
