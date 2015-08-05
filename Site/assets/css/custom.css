@@ -48,3 +48,25 @@ Place here your custom CSS styles
 .tab-pane h4 {
 	margin-bottom:0;
 }
+
+#about {
+	background-attachment: fixed;
+}
+
+a.btn-default {
+	 -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+	-webkit-box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.75);
+	box-shadow: 5x 5px 0px 0px rgba(0,0,0,0.75);
+	background:white;
+	border:1px solid black;
+	color:black;
+}
+
+a.btn-default:hover {
+	background:white;
+	color:#dda400;
+}

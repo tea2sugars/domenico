@@ -66,9 +66,10 @@
 
 	</nav>
 	<!-- /NAVIGATION -->
-
+	
 	<!-- HOME -->
 	<section id="home" class="module-hero module-parallax module-fade module-full-height">
+			
 
 		<!--<div class="hs-caption container">
 			<div class="caption-content">
@@ -85,9 +86,14 @@
 
 	</section >
 	<!-- /HOME -->
-
+	<div id="book-button" style="position:fixed; top:90px; left:10%; z-index: 1000;">
+				<a href="#" class="btn btn-default">Book a table</a>
+			</div>
+			<div id="delivery-button" style="position:fixed; top:90px; right:10%; z-index: 1000;">
+				<a href="#" class="btn btn-default">Delivery</a>
+	</div>
 	<section id="about" class="module" data-background="assets/images/About_Image.jpg">
-
+			
 			<div class="container-fluid">
 
 				<div class="row">
@@ -367,7 +373,7 @@
 	</section>
 
 		<!-- CONTACT -->
-		<section id="about" class="module" data-background="assets/images/details_image.jpg">
+		<section id="details" class="module" data-background="assets/images/details_image.jpg">
 			<div class="container">
 				<div class="row">
 					<article class="col-sm-6 col-sm-offset-3 bg-dark">
