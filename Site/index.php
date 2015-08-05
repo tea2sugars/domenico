@@ -414,13 +414,12 @@
 					<div class="col-sm-12 text-center">
 						<img src="assets/images/Secondary_logo.png" alt="Secondary_logo" width="343" height="52" class="align-center">
 						<ul id="footer-nav">
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
+							<li><a href="#about">About Us</a></li>
+							<li><a href="#menu">The Menu</a></li>
+							<li><a href="#details">Contact Us</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Instagram</a></li>
 						</ul>
 						<p class="copyright text-center m-t-40">© 2015. All Rights Reserved Domenico</p>
 					</div>
