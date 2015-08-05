@@ -53,11 +53,10 @@
 				<div class="collapse navbar-collapse" id="custom-collapse">
 		
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">07595 020 864</a></li>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">The Menu</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="tel:0759502086" class="section-scroll">07595 020 864</a></li>
+						<li><a href="#about" class="section-scroll">About Us</a></li>
+						<li><a href="#menu" class="section-scroll">The Menu</a></li>
+						<li><a href="#details" class="section-scroll">Contact</a></li>
 		
 					</ul>
 				</div>
