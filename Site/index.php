@@ -1,31 +1,19 @@
+<?php include('perch/runtime.php');?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	
-	<title>Domenico Pizza & Pasta | The Taste of Naples | London</title>
-	<!-- Custom CSS -->
-	<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/2eadd16e-f3c3-4374-a571-f41f96163302.css"/>
-	
-	<!-- Bootstrap core CSS -->
-	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	
-	<!-- Plugins -->
-	<link href="assets/css/simpletextrotator.css" rel="stylesheet">
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
-	<link href="assets/css/et-line-font.css" rel="stylesheet">
-	<link href="assets/css/magnific-popup.css" rel="stylesheet">
-	<link href="assets/css/flexslider.css" rel="stylesheet">
-	<link href="assets/css/animate.css" rel="stylesheet">
-	
-	<!-- Template core CSS -->
-	<link href="assets/css/style.css" rel="stylesheet">
-	
-	<!-- Custom css -->
-	<link href="assets/css/custom.css" rel="stylesheet">
+	<title><?php perch_pages_title(); ?></title>
+	<?php
+		perch_page_attributes(array(
+		    'template' => 'seo.html'
+		    
+		));
+		perch_page_attributes(array(
+		    'template' => 'css.html'
+		));
+		
+	?> 
+
 </head>
 <body>
 
@@ -93,7 +81,7 @@
 			<div id="delivery-button" style="position:fixed; top:90px; right:10%; z-index: 1000;">
 				<a href="#" class="btn btn-default">Delivery</a>
 	</div>
-	<section id="about" class="module" data-background="assets/images/About_Image.jpg">
+	<section id="about" class="module" data-background="<?php perch_content('about_slide_image');?>">
 			
 			<div class="container-fluid">
 
@@ -101,30 +89,7 @@
 
 						<div class="post-images-slider">
 							<ul class="slides">
-								<li class="bg-dark">
-									<article class="col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
-										<h1 class="align-center font-alt font-yellow">Traditional made Italian</h1>
-										<hr class="align-center"/>
-										<p class="align-center">Cold-pressed Neutra vegan actually PBR&B meditation bicycle rights viral roof party. Wes Anderson four loko leggings occupy tousled, mustache skateboard cliche. Banksy High Life cred fingerstache art party. Letterpress cold-pressed pop-up, dreamcatcher craft beer locavore master cleanse wolf Wes Anderson viral hashtag semiotics. Letterpress meditation tote bag fanny pack four dollar toast, squid pop-up Carles Bushwick American Apparel hoodie dreamcatcher. Occupy Helvetica High Life Odd Future, meggings cronut fixie direct trade kale chips mlkshk chambray. Chambray McSweeney's tattooed, sustainable Thundercats mixtape migas asymmetrical.</p>
-									</article>
-								</li>
-								
-								<li class="bg-dark">
-									<article class="col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
-										<h2 class="align-center font-alt font-yellow">Traditional made Italian</h2>
-										<hr class="align-center"/>
-										<p class="align-center">Cold-pressed Neutra vegan actually PBR&B meditation bicycle rights viral roof party. Wes Anderson four loko leggings occupy tousled, mustache skateboard cliche. Banksy High Life cred fingerstache art party. Letterpress cold-pressed pop-up, dreamcatcher craft beer locavore master cleanse wolf Wes Anderson viral hashtag semiotics. Letterpress meditation tote bag fanny pack four dollar toast, squid pop-up Carles Bushwick American Apparel hoodie dreamcatcher. Occupy Helvetica High Life Odd Future, meggings cronut fixie direct trade kale chips mlkshk chambray. Chambray McSweeney's tattooed, sustainable Thundercats mixtape migas asymmetrical.</p>
-									</article>
-								</li>
-								
-								<li class="bg-dark">
-									<article class="col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
-										<h2 class="align-center font-alt font-yellow">Traditional made Italian</h2>
-										<hr class="align-center"/>
-										<p class="align-center">Cold-pressed Neutra vegan actually PBR&B meditation bicycle rights viral roof party. Wes Anderson four loko leggings occupy tousled, mustache skateboard cliche. Banksy High Life cred fingerstache art party. Letterpress cold-pressed pop-up, dreamcatcher craft beer locavore master cleanse wolf Wes Anderson viral hashtag semiotics. Letterpress meditation tote bag fanny pack four dollar toast, squid pop-up Carles Bushwick American Apparel hoodie dreamcatcher. Occupy Helvetica High Life Odd Future, meggings cronut fixie direct trade kale chips mlkshk chambray. Chambray McSweeney's tattooed, sustainable Thundercats mixtape migas asymmetrical.</p>
-									</article>
-								</li>
-								
+								<?php perch_content('slide.main');?>
 							</ul>
 						</div>
 
@@ -173,196 +138,52 @@
 								<!-- Tab start -->
 								<div class="tab-pane active" id="starters">
 									<article class="col-sm-6 col-sm-offset-3">
-										<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue commodoorci ut finibus. Nam id nibh non augue iaculis congue at at orci. Proin blandit idlorem vitae auctor. Ut viverra viverra lacus, at convallis turpis euismod ut.</p>
+										<p class="text-center"><?php perch_content('starter.intro');?></p>
 									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
+									<?php perch_content('starter.item');?>
 								</div>
 								<!-- Tab end -->
 
 								<!-- Tab start -->
 								<div class="tab-pane" id="pizzas">
 									<article class="col-sm-6 col-sm-offset-3">
-										<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue commodoorci ut finibus. Nam id nibh non augue iaculis congue at at orci. Proin blandit idlorem vitae auctor. Ut viverra viverra lacus, at convallis turpis euismod ut.</p>
+										<p class="text-center"><?php perch_content('pizzas.intro');?></p>
 									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
+									<?php perch_content('pizzas.item');?>
 								</div>
 								<!-- Tab end -->
 								<!-- Tab start -->
 								<div class="tab-pane" id="calzone">
 									<article class="col-sm-6 col-sm-offset-3">
-										<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue commodoorci ut finibus. Nam id nibh non augue iaculis congue at at orci. Proin blandit idlorem vitae auctor. Ut viverra viverra lacus, at convallis turpis euismod ut.</p>
+										<p class="text-center"><?php perch_content('calzone.intro');?></p>
 									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
+									<?php perch_content('calzone.item');?>
 								</div>
 								<!-- Tab end -->
 
 								<!-- Tab start -->
 								<div class="tab-pane" id="pasta">
 									<article class="col-sm-6 col-sm-offset-3">
-										<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue commodoorci ut finibus. Nam id nibh non augue iaculis congue at at orci. Proin blandit idlorem vitae auctor. Ut viverra viverra lacus, at convallis turpis euismod ut.</p>
+										<p class="text-center"><?php perch_content('pasta.intro');?></p>
 									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
+									<?php perch_content('pasta.item');?>
 								</div>
 								<!-- Tab end -->
 								<!-- Tab start -->
 								<div class="tab-pane" id="alforno">
 									<article class="col-sm-6 col-sm-offset-3">
-										<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue commodoorci ut finibus. Nam id nibh non augue iaculis congue at at orci. Proin blandit idlorem vitae auctor. Ut viverra viverra lacus, at convallis turpis euismod ut.</p>
+										<p class="text-center"><?php perch_content('alforno.intro');?></p>
 									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
+									<?php perch_content('alforno.item');?>
 								</div>
 								<!-- Tab end -->
 
 								<!-- Tab start -->
 								<div class="tab-pane" id="desserts">
 									<article class="col-sm-6 col-sm-offset-3">
-										<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue commodoorci ut finibus. Nam id nibh non augue iaculis congue at at orci. Proin blandit idlorem vitae auctor. Ut viverra viverra lacus, at convallis turpis euismod ut.</p>
+										<p class="text-center"><?php perch_content('desserts.intro');?></p>
 									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
-									<article class="menu-item text-center col-sm-4 col-sm-offset-4">
-										<h4>Title</h4>
-										<p class="m-b-10">Description</p>
-										<p class="lead font-alt">£10.00</p>
-									</article>
+									<?php perch_content('desserts.item');?>
 								</div>
 								<!-- Tab end -->
 
@@ -380,9 +201,7 @@
 					<article class="col-sm-6 col-sm-offset-3 bg-dark">
 						<h2 class="text-center font-alt font-yellow">Opening Hours</h2>
 						<hr class="align-center"/>
-						<p class="text-center"><span class="font-alt font-yellow">Monday-Friday:</span> 12.00 - 23.30</p>
-						<p class="text-center"><span class="font-alt font-yellow">Saturday:</span> 16.30 - 23.30</p>
-						<p class="text-center"><span class="font-alt font-yellow">Sunday & Bank holiday:</span> 16.30 - 22.00</p>
+						<?php perch_content('opening.time');?>
 					</article>
 					<article class="col-sm-6 col-sm-offset-3 bg-dark">
 						<h2 class="text-center font-alt font-yellow">Booking a table</h2>
@@ -398,8 +217,8 @@
 					<article class="col-sm-6 col-sm-offset-3 bg-dark">
 						<h2 class="text-center font-alt font-yellow">Finding Us</h2>
 						<hr class="align-center"/>
-						<p class="text-center"><address>Domenico Restaurant, XX-XX XXXXX XXXXX, Mill Hill, London, XXXX XXX</address></p>
-						<p class="text-center font-alt"><a href="#" target="_blank">Click here for directions</a></p>
+						<p class="text-center"><address><?php perch_content('address');?></address></p>
+						<p class="text-center font-alt"><a href="<?php perch_content('address.link');?>" target="_blank">Click here for directions</a></p>
 					</article>
 		</section>
 		<!-- /CONTACT -->
