@@ -3,6 +3,8 @@
 <html lang="en">
 <head>
 	<title><?php perch_pages_title(); ?></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php
 		perch_page_attributes(array(
 		    'template' => 'seo.html'
@@ -203,7 +205,7 @@
 						<hr class="align-center"/>
 						<?php perch_content('opening.time');?>
 					</article>
-					<article class="col-sm-6 col-sm-offset-3 bg-dark">
+					<article class="col-sm-6 col-sm-offset-3 bg-dark hidden-xs hidden-sm">
 						<h2 class="text-center font-alt font-yellow">Booking a table</h2>
 						<hr class="align-center"/>
 						<p class="text-center">Book <a href="#">online</a> or give us a call on <a href="#">+44 (0)20 7XXX XXXX</a><br/>between 9.00am and 10.30pm</p>
@@ -212,7 +214,6 @@
 								Book a table
 							</button>
 						</div>
-
 					</article>
 					<article class="col-sm-6 col-sm-offset-3 bg-dark">
 						<h2 class="text-center font-alt font-yellow">Finding Us</h2>

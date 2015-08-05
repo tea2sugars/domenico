@@ -73,3 +73,8 @@ a.btn-default:hover, button.btn-default:hover {
 .modal-open {
     padding-right: 0 !important;
     }
+.modal-open .modal {
+
+    z-index: 3000;
+    margin-top: 80px;
+    }
