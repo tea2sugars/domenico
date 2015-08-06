@@ -218,7 +218,7 @@
 					<article class="col-sm-6 col-sm-offset-3 bg-dark">
 						<h2 class="text-center font-alt font-yellow">Finding Us</h2>
 						<hr class="align-center"/>
-						<p class="text-center"><address><?php perch_content('address');?></address></p>
+						<p class="text-center"><?php perch_content('address');?></p>
 						<p class="text-center font-alt"><a href="<?php perch_content('address.link');?>" target="_blank">Click here for directions</a></p>
 					</article>
 		</section>
