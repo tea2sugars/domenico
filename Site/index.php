@@ -75,12 +75,12 @@
 
 	</section >
 	<!-- /HOME -->
-	<div id="book-button" style="position:fixed; top:90px; left:10%; z-index: 1000;">
+	<div id="book-button" style="position:fixed; top:90px; left:5%; z-index: 1000;">
 				<button data-toggle="modal" data-target="#myModal" class="btn btn-default">
 					Book a table
 				</button>
 			</div>
-			<div id="delivery-button" style="position:fixed; top:90px; right:10%; z-index: 1000;">
+			<div id="delivery-button" style="position:fixed; top:90px; right:5%; z-index: 1000;">
 				<a href="#" class="btn btn-default">Delivery</a>
 	</div>
 	<section id="about" class="module" data-background="<?php perch_content('about_slide_image');?>">
