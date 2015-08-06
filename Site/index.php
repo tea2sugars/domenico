@@ -200,12 +200,12 @@
 		<section id="details" class="module" data-background="assets/images/details_image.jpg">
 			<div class="container">
 				<div class="row">
-					<article class="col-sm-6 col-sm-offset-3 bg-dark">
+					<article class="col-sm-8 col-sm-offset-2 bg-dark">
 						<h2 class="text-center font-alt font-yellow">Opening Hours</h2>
 						<hr class="align-center"/>
 						<?php perch_content('opening.time');?>
 					</article>
-					<article class="col-sm-6 col-sm-offset-3 bg-dark">
+					<article class="col-sm-8 col-sm-offset-2 bg-dark">
 						<h2 class="text-center font-alt font-yellow">Booking a table</h2>
 						<hr class="align-center"/>
 						<p class="text-center">Book online or give us a call on <a href="#">+44 (0)20 7XXX XXXX</a><br/>between 9.00am and 10.30pm</p>
@@ -215,7 +215,7 @@
 							</button>
 						</div>
 					</article>
-					<article class="col-sm-6 col-sm-offset-3 bg-dark">
+					<article class="col-sm-8 col-sm-offset-2 bg-dark">
 						<h2 class="text-center font-alt font-yellow">Finding Us</h2>
 						<hr class="align-center"/>
 						<?php perch_content('address');?>
