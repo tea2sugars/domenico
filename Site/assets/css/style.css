@@ -867,10 +867,18 @@ Footer
 	margin:0 5px;
 }
 
-.footer li a {
+.footer p {
+	font-size: 12px;
+}
+
+.footer a {
 	color:white;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+.footer a:hover {
+	text-decoration: underline;
 }
 
 .copyright {
