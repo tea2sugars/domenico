@@ -43,7 +43,7 @@
 				<div class="collapse navbar-collapse" id="custom-collapse">
 		
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="tel:0759502086" class="section-scroll">07595 020 864</a></li>
+						<li class="hidden-xs hidden-sm"><a href="tel:0759502086">07595 020 864</a></li>
 						<li><a href="#about" class="section-scroll">About Us</a></li>
 						<li><a href="#menu" class="section-scroll">The Menu</a></li>
 						<li><a href="#details" class="section-scroll">Contact</a></li>
@@ -139,7 +139,7 @@
 
 								<!-- Tab start -->
 								<div class="tab-pane active" id="starters">
-									<article class="col-sm-6 col-sm-offset-3">
+									<article class="col-sm-10 col-sm-offset-1 col-md-8 col-sm-offset-8">
 										<p class="text-center"><?php perch_content('starter.intro');?></p>
 									</article>
 									<?php perch_content('starter.item');?>
@@ -148,7 +148,7 @@
 
 								<!-- Tab start -->
 								<div class="tab-pane" id="pizzas">
-									<article class="col-sm-6 col-sm-offset-3">
+									<article class="col-sm-10 col-sm-offset-1 col-md-8 col-sm-offset-8">
 										<p class="text-center"><?php perch_content('pizzas.intro');?></p>
 									</article>
 									<?php perch_content('pizzas.item');?>
@@ -156,7 +156,7 @@
 								<!-- Tab end -->
 								<!-- Tab start -->
 								<div class="tab-pane" id="calzone">
-									<article class="col-sm-6 col-sm-offset-3">
+									<article class="col-sm-10 col-sm-offset-1 col-md-8 col-sm-offset-8">
 										<p class="text-center"><?php perch_content('calzone.intro');?></p>
 									</article>
 									<?php perch_content('calzone.item');?>
@@ -165,7 +165,7 @@
 
 								<!-- Tab start -->
 								<div class="tab-pane" id="pasta">
-									<article class="col-sm-6 col-sm-offset-3">
+									<article class="col-sm-10 col-sm-offset-1 col-md-8 col-sm-offset-8">
 										<p class="text-center"><?php perch_content('pasta.intro');?></p>
 									</article>
 									<?php perch_content('pasta.item');?>
@@ -173,7 +173,7 @@
 								<!-- Tab end -->
 								<!-- Tab start -->
 								<div class="tab-pane" id="alforno">
-									<article class="col-sm-6 col-sm-offset-3">
+									<article class="col-sm-10 col-sm-offset-1 col-md-8 col-sm-offset-8">
 										<p class="text-center"><?php perch_content('alforno.intro');?></p>
 									</article>
 									<?php perch_content('alforno.item');?>
@@ -182,7 +182,7 @@
 
 								<!-- Tab start -->
 								<div class="tab-pane" id="desserts">
-									<article class="col-sm-6 col-sm-offset-3">
+									<article class="col-sm-10 col-sm-offset-1 col-md-8 col-sm-offset-8">
 										<p class="text-center"><?php perch_content('desserts.intro');?></p>
 									</article>
 									<?php perch_content('desserts.item');?>
@@ -205,10 +205,10 @@
 						<hr class="align-center"/>
 						<?php perch_content('opening.time');?>
 					</article>
-					<article class="col-sm-6 col-sm-offset-3 bg-dark hidden-xs hidden-sm">
+					<article class="col-sm-6 col-sm-offset-3 bg-dark">
 						<h2 class="text-center font-alt font-yellow">Booking a table</h2>
 						<hr class="align-center"/>
-						<p class="text-center">Book <a href="#">online</a> or give us a call on <a href="#">+44 (0)20 7XXX XXXX</a><br/>between 9.00am and 10.30pm</p>
+						<p class="text-center">Book online or give us a call on <a href="#">+44 (0)20 7XXX XXXX</a><br/>between 9.00am and 10.30pm</p>
 						<div class="align-center">
 							<button data-toggle="modal" data-target="#myModal" class="btn btn-default btn-lg">
 								Book a table
@@ -233,14 +233,9 @@
 		
 					<div class="col-sm-12 text-center">
 						<img src="assets/images/Secondary_logo.png" alt="Secondary_logo" width="343" height="52" class="align-center">
-						<ul id="footer-nav">
-							<li><a href="#about">About Us</a></li>
-							<li><a href="#menu">The Menu</a></li>
-							<li><a href="#details">Contact Us</a></li>
-							<li><a href="#">Facebook</a></li>
-							<li><a href="#">Twitter</a></li>
-							<li><a href="#">Instagram</a></li>
-						</ul>
+						<div id="footer-nav">
+							<a href="#about">About Us</a> <a href="#menu">The Menu</a> <a href="#details">Contact Us</a> <a href="#">Facebook</a> <a href="#">Twitter</a> <a href="#">Instagram</a>
+						</div>
 						<p class="copyright text-center m-t-40">© 2015. All Rights Reserved Domenico</p>
 					</div>
 		

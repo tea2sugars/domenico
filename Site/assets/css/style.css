@@ -559,7 +559,7 @@ Navbar
 	font-family: "AvenirNextLTW01-Medium", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 0.15em;
-	font-size: 18px;
+	font-size: 16px;
 	padding-bottom:4px;
 	padding-top:20px;
 	z-index: 2000;
@@ -864,7 +864,7 @@ Footer
 
 .footer li {
 	display: inline-block;
-	width:15%;
+	margin:0 5px;
 }
 
 .footer li a {
